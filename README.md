@@ -10,3 +10,6 @@ Travis CI Badge
 
 Heroku App URL
 https://evening-hamlet-54764.herokuapp.com/
+
+Code Climate Badge
+[![Code Climate](https://codeclimate.com/github/Ebrahem-Farooqui/CNSC-Chinatown/badges/gpa.svg)](https://codeclimate.com/github/Ebrahem-Farooqui/CNSC-Chinatown)

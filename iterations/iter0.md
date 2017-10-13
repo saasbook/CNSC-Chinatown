@@ -9,3 +9,6 @@ https://www.youtube.com/watch?v=DFzm78j4EmY&feature=em-upload_owner
 
 Michael Eliot
 https://youtu.be/4u4NXoYOXsM
+
+Entry Video
+https://youtu.be/l7IbbYqzgCo

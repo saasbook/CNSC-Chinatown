@@ -1,55 +1,14 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+  <title>CnscChinatown</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
 <body>
 
-<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
-  <button class="w3-bar-item w3-button w3-large"
-  onclick="w3_close()">Close</button>
-  <a href="#" class="w3-bar-item w3-button">Restaurants</a>
-  <a href="#" class="w3-bar-item w3-button">Points of Interest</a>
-  <a href="#" class="w3-bar-item w3-button">.</a>
-  <a href="#" class="w3-bar-item w3-button">.</a>
-  <a href="#" class="w3-bar-item w3-button">.</a>
-  <a href="#" class="w3-bar-item w3-button">Interactive Map</a>
-</div>
-
-<div id="main">
-
-<div class="w3-teal">
-  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
-  <div class="w3-container" style="display:inline-block;">
-    <h1 style="text-align:center;">Welcome to Chinatown!</h1>
-  </div>
-</div>
-
-<!-- <img src="img_car.jpg" alt="Car" style="width:100%"> -->
-
-<div class="w3-container">
-<p>In this example, the sidebar is hidden (style="display:none")</p>
-<p>It is shown when you click on the menu icon in the top left corner.</p>
-<p>When it is opened, it shifts the page content to the right.</p>
-<p>We use JavaScript to add a 25% left margin to the div element with id="main" when this happens. The value "25%" matches the width of the sidebar.</p>
-</div>
-
-</div>
-
-<script>
-function w3_open() {
-  document.getElementById("main").style.marginLeft = "25%";
-  document.getElementById("mySidebar").style.width = "25%";
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("openNav").style.display = 'none';
-}
-function w3_close() {
-  document.getElementById("main").style.marginLeft = "0%";
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("openNav").style.display = "inline-block";
-}
-</script>
+<%= yield %>
 
 </body>
 </html>
-

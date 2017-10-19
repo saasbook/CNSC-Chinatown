@@ -15,5 +15,6 @@ Background: restaurants have been added to the database
   Then 2 seed restaurants should exist
 
 Scenario: navigate to restaurants page
+  Given I am on the "Chinatown" homepage
   When I follow "Restaurants"
   Then I should see "Listing Restaurants"

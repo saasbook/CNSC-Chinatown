@@ -13,7 +13,9 @@ module NavigationHelpers
   def path_to(page_name)
     case page_name
 
+    when /^the (Restaurant )page$/ then '/restaurants'
     when /^the (Chinatown )?home\s?page$/ then '/'
+    
     
 
     # Add more mappings here.

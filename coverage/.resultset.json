@@ -1,0 +1,117 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/ubuntu/workspace/CNSC-Chinatown/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/CNSC-Chinatown/app/helpers/restaurants_helper.rb": [
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/CNSC-Chinatown/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/CNSC-Chinatown/app/controllers/restaurants_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/ubuntu/workspace/CNSC-Chinatown/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/CNSC-Chinatown/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/ubuntu/workspace/CNSC-Chinatown/app/models/restaurant.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1508393713
+  },
+  "Cucumber Features": {
+    "coverage": {
+    },
+    "timestamp": 1508393717
+  }
+}

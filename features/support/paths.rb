@@ -14,6 +14,7 @@ module NavigationHelpers
     case page_name
 
     when /^the (Restaurant )page$/ then '/restaurants'
+    when /^the (Points )page$/ then '/points'
     when /^the (Chinatown )?home\s?page$/ then '/'
     
     

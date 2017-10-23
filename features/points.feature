@@ -7,7 +7,7 @@ Feature: display points of interest on Points of Interest page
 Background: points of interest have been added to the database
 
   Given the following points of interest exist:
-  | name                             | location                 | description                                       |
+  | name                             | address                  | description                                       |
   | Old St. Mary's Cathedral         | 660 California St.       | first Asian church in North America               |
   | Tianhou Temple                   | 125 Waverly Place        | oldest Buddhist temple in the US                  |
   | Dragon's Gate                    | Bush St. & Grant Ave.    | only authentic Chinatown Gate in North America    |

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :points
   get 'welcome/index'
+  get '/map' => 'welcome#map', as: 'map'
   
   root 'welcome#index'
 

@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  resources :points
+  get 'welcome/index'
+  get '/map' => 'welcome#map', as: 'map'
+  
+  root 'welcome#index'
+
+  resources :restaurants
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
